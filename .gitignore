@@ -36,6 +36,9 @@
 *.x86_64
 *.hex
 
+# Ignore executables without extensions (Linux/macOS)
+*.[^.]*~
+
 # Debug files
 *.dSYM/
 *.su
